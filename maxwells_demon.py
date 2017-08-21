@@ -98,7 +98,7 @@ def addBallPair():#adds a pair of balls(different colors) to the board
 def removeBallPair():#removes a pair of balls (last ones added) from the board
     #(only available in sandbox mode
     if len(cd.ballList)==0:
-        print "Ball list is empty"
+        print("Ball list is empty")
     else:
         cd.ballList.pop()
         cd.ballList.pop()
